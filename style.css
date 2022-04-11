@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.top {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 2%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  /* grid-column-gap: 1px ;
+    grid-template-columns: 10% 20% 20% ; */
+}
+.x {
+  flex-basis: 15%;
+  text-align: center;
+  color: #5ea9eb;
+}
+
+.contact {
+  /*     font-family: 'Antonio', sans-serif; */
+  background-color: #5ea9eb;
+  vertical-align: center;
+  width: 150px;
+  padding: 1%;
+  border: 2px solid #5ea9eb;
+  border-radius: 30px;
+  color: white;
+  font-size: 100%;
+}
+
+.logo {
+  position: relative;
+  top: 38px;
+  left: 20px;
+  width: 12%;
+}
+.navbar {
+  list-style-type: none;
+  padding: 1%;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+}
+
+.navbar a {
+  color: #5ea9eb;
+  font-size: 130%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.first {
+  /* height: 80vh; */
+  /* padding: 0.5%; */
+  background-image: url("https://images.unsplash.com/photo-1601132359864-c974e79890ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+  max-height: fit-content;
+}
+
+.cont {
+  width: 50%;
+  font-family: "Open Sans";
+  padding: 3%;
+}
+.cont h1 {
+  font-size: 320%;
+  line-height: 150%;
+  color: black;
+  font-weight: lighter;
+}
+.cont p {
+  font-size: 130%;
+  width: 80%;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  line-height: 150%;
+}
+
+.cont button {
+  font-family: "Open Sans", sans-serif;
+  background-color: #5ea9eb;
+  font-weight: bolder;
+  padding-bottom: 0.3%;
+  padding-top: 0.3%;
+  padding-right: 2%;
+  padding-left: 2%;
+  border: 2px solid #5ea9eb;
+  border-radius: 30px;
+  color: white;
+  font-size: 140%;
+}
+
+.cont2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: "Open Sans";
+  padding: 5%;
+  padding-bottom: 10%;
+
+  /* height: 120vh; */
+}
+.cont2 div {
+  box-sizing: border-box;
+  padding: 3%;
+  margin: auto;
+
+  /* align-items: center; */
+}
+
+.cont2 img {
+  width: 80%;
+}
+
+.imgparent2 {
+  margin: auto;
+  text-align: center;
+}
+.cont2 h3 {
+  font-size: 180%;
+  font-family: "Open Sans";
+  color: black;
+}
+.cont2 p {
+  font-size: 110%;
+  font-weight: bolder;
+}
+
+.cont3 {
+  /* height: 75vh; */
+  /* width: 95vw; */
+  /* margin-top: 5% ; */
+  padding: 1% 5%;
+  margin: auto;
+
+  background-color: lightgrey;
+}
+.c3 {
+  font-family: "Open sans";
+
+  padding: 3%;
+  margin: auto;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 200%;
+}
+
+.cont3grid {
+  display: grid;
+  justify-content: center;
+  margin-top: 6%;
+  grid-template-columns: 25% 25% 25% 25%;
+  font-family: "Open sans";
+  line-height: 30px;
+}
+.imgcont {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.imgcontent img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.cont3grid div h4 {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 6%;
+}
+.cont4 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* height: 120vh; */
+  /* width: 100vw; */
+  /* padding: 1%; */
+  font-family: "Open sans";
+  font-weight: lighter;
+}
+
+.parent h2 {
+  font-size: 270%;
+  margin: 0%;
+  font-weight: lighter;
+}
+
+ol {
+  font-size: 30px;
+  font-family: "Open sans";
+}
+
+.parent {
+  padding: 6%;
+  margin-top: 10%;
+}
+
+.cont4 img {
+  margin: 0 auto;
+  width: 84%;
+  padding-top: 6%;
+  margin-top: 10%;
+}
+.cont5 {
+  padding: 5% 0%;
+  /* height: 95vh; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: "Open sans";
+}
+.cont5 img {
+  width: 100%;
+}
+.cont5 h2 {
+  font-size: 200%;
+  margin: 0%;
+}
+.cont5 p {
+  font-size: 110%;
+
+  font-weight: bold;
+  line-height: 27px;
+}
+
+.parent5 {
+  padding: 5%;
+  /* margin-left: 10%; */
+}
+
+.cont6 {
+  display: grid;
+  background-color: lightgrey;
+  grid-template-columns: 50% 50%;
+  /* width: 99vw; */
+  /* height: 120vh; */
+  font-family: "Open sans";
+  padding: 5% 0%;
+}
+
+.parent6 {
+  padding: 6%;
+}
+.parent6 p {
+  font-size: 110%;
+  font-weight: lighter;
+}
+
+.parent6 li {
+  font-size: 110%;
+  margin-top: 5%;
+  text-align: left;
+}
+.cont6 img {
+  max-width: 100%;
+}
+.cont6 button {
+  font-family: "Open Sans", sans-serif;
+  background-color: #ff8672;
+  font-weight: bolder;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-right: 3%;
+  padding-left: 3%;
+  border: 2px solid #ff8672;
+  border-radius: 30px;
+  color: white;
+  font-size: 90%;
+}
+
+.parent7 {
+  display: grid;
+  margin: auto;
+  margin-top: 5%;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-around;
+  align-items: baseline;
+  font-family: "Open sans";
+
+  /* height: 110vh; */
+}
+.cont7img {
+  width: 90%;
+  height: 50%;
+  margin: auto;
+  text-align: center;
+  vertical-align: center;
+}
+.parent7 img {
+  width: 100%;
+
+  /*   height:100%; */
+  object-fit: cover;
+}
+
+.cont7 {
+  padding: 7% 0%;
+}
+.parent7 h2 {
+  font-size: 110%;
+  font-weight: bold;
+  text-align: left;
+}
+.cont7 h1 {
+  font-family: "Open sans";
+  font-weight: lighter;
+  font-size: 50px;
+  margin: 0.5% auto;
+  width: 80%;
+}
+
+.parent7 p {
+  text-align: left;
+
+  font-size: 110%;
+  line-height: 30px;
+  justify-content: baseline;
+}
+.parent7 a {
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #ff8672;
+  text-align: left;
+}
+
+.cont7-1 {
+  width: 65%;
+  margin-left: 11%;
+}
+
+.y {
+  margin-top: 15%;
+}
+.q1 {
+  margin-top: 15%;
+}
+.q2 {
+  margin-top: 24%;
+}
+
+.cont8 {
+  /* width: 97vw; */
+  /* height: 140vh; */
+  /* padding-left:1% ;
+    padding-top: 10% ; */
+  background-color: lightskyblue;
+  padding: 7%;
+}
+.parent8 {
+  background-color: white;
+  width: 550px;
+  text-align: center;
+  padding: 5%;
+}
+.cont8 h1 {
+  font-family: "Open sans";
+  font-size: 200%;
+  font-weight: lighter;
+  text-align: left;
+}
+.parent8 p {
+  font-size: 120%;
+  font-family: "Open sans";
+  text-align: left;
+  width: 90%;
+}
+form input {
+  font-family: "Open sans";
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: none;
+  height: 48px;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 12px;
+
+  text-align: left;
+  outline: 0;
+  border: 0px;
+}
+
+fieldset {
+  border: 0px solid;
+  display: grid;
+  grid-template-columns: 46% 46%;
+  justify-content: space-evenly;
+}
+.submit {
+  border: 0;
+  background-color: blue;
+  text-transform: uppercase;
+  width: 90%;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.hs-input {
+  background: rgba(0, 0, 0, 0.05);
+  border: 0;
+  font-weight: bold;
+  width: 90%;
+  font-family: "Open sans";
+  box-shadow: none;
+  height: 48px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.cont9 {
+  /* width: 99vw; */
+
+  background-color: #b8d1cd;
+  text-align: center;
+
+  margin-top: 10%;
+}
+.parent9 {
+  padding: 5% 2%;
+  margin: 0% 1%;
+}
+.cont9 h2 {
+  font-family: "Open sans";
+  font-size: 50px;
+  color: white;
+  font-weight: lighter;
+}
+
+.cont9 h5 {
+  font-family: "Open sans";
+  font-size: 16px;
+  color: white;
+  font-weight: lighter;
+}
+
+.submit2 {
+  width: 60%;
+  background-color: #001d3a;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  border-radius: 50px;
+}
+
+.form2 {
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: 22% 22% 22% 20%;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: #001d3a;
+  height: auto;
+}
+
+.end {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+  font-family: "Open sans";
+  color: white;
+  padding: 1%;
+  text-align: left;
+}
+.end h6 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.end ul {
+  list-style-type: none;
+}
+
+.end ul li {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
